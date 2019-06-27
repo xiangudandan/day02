@@ -1,0 +1,29 @@
+.left
+{
+    color: red;
+    font-size: 4px;
+}
+.right{
+    color: teal;
+    font-size: 4px;
+}
+#t1{
+    color: blue;
+}
+#t2,.right{
+    border: 1px solid #ccc;
+}
+h1#t1{
+    background-color: coral;
+}
+.header li{color: coral;}
+.header>ul{border: 1px solid #css;}
+.header>ul>li:nth-child(2){
+    background-color: pink;
+}
+.header>ul>li:hover{
+    background-color: pink;
+}
+ul::after{
+    content:"hello";
+}
